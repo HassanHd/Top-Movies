@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hassan.task_movie.activite.DetalisActivte">
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="200dp"
+     android:scaleType="centerCrop"
+     android:src="@drawable/p"
+     android:id="@+id/imgcaver"
+     />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="12dp"
+
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/p"
+            android:id="@+id/img_v_poster"
+            />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_margin="12dp"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="hassaaaaaaan"
+               android:textAppearance="?android:textAppearanceMedium"
+android:id="@+id/tv_movi_Titel"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Rating"
+               android:id="@+id/tvRating"
+               />
+           <TextView
+               android:id="@+id/tv_movidate"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="date"
+               />
+
+       </LinearLayout>
+    </LinearLayout>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="discrapt"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:padding="8dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/movidscraption"
+        />
+
+</LinearLayout>
